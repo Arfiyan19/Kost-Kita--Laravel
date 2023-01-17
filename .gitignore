@@ -1,0 +1,14 @@
+/node_modules
+/public/bg_foto
+/public/bukti_bayar
+/public/foto_profile
+/public/images
+/public/storage
+/storage/*.key
+/vendor
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
