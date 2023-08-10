@@ -1,0 +1,44 @@
+{
+    "name": "andes2912/indobank",
+    "description": "List Bank of Indonesian",
+    "type": "liblary",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "php",
+        "csv",
+        "indonesia",
+        "bank",
+        "nama bank"
+    ],
+    "authors": [
+        {
+            "name": "Andri Desmana",
+            "email": "andridesmana29@gmail.com"
+        }
+    ],
+    "require": {
+        "parsecsv/php-parsecsv": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Andes2912\\IndoBank\\": "src/"
+        },
+        "files": [
+            "src/RawDataGetter.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Andes2912\\IndoBank\\IndoBankServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "homepage": "https://andridesmana.pw/",
+    "prefer-stable": true
+}

@@ -9,7 +9,7 @@
     <meta name="description" content="@yield('description')">
     <meta name="keywords" content="Kost Kita, cari kos di Kost Kita, aplikasi pencari kos">
     <meta property="og:image" content="@yield('image') ">
-    <meta name="author" content="Andri Desmana">
+    <meta name="author" content="Arfiyan Wahyu Pratama">
     <title>@yield('title')</title>
 
     <link rel="apple-touch-icon" href="{{asset('assets/images/logo/papikos_logo.png')}}">
